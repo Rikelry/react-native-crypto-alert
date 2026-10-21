@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1792606149608" clover="3.2.0">
+  <project timestamp="1792606149608" name="All files">
+    <metrics statements="94" coveredstatements="74" conditionals="57" coveredconditionals="29" methods="35" coveredmethods="21" elements="186" coveredelements="124" complexity="0" loc="94" ncloc="94" packages="7" files="12" classes="12"/>
+    <package name="components.CryptoCard">
+      <metrics statements="15" coveredstatements="11" conditionals="21" coveredconditionals="6" methods="7" coveredmethods="3"/>
+      <file name="CryptoCard.styles.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/CryptoCard/CryptoCard.styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="CryptoCard.tsx" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/CryptoCard/CryptoCard.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="17" coveredconditionals="6" methods="2" coveredmethods="1"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+      </file>
+      <file name="useCryptoCard.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/CryptoCard/useCryptoCard.ts">
+        <metrics statements="11" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PrimaryButton">
+      <metrics statements="7" coveredstatements="7" conditionals="13" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <file name="PrimaryButton.styles.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/PrimaryButton/PrimaryButton.styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="PrimaryButton.tsx" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/PrimaryButton/PrimaryButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="11" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+      <file name="usePrimaryButton.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/components/PrimaryButton/usePrimaryButton.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="context.AlertProvider">
+      <metrics statements="31" coveredstatements="26" conditionals="10" coveredconditionals="8" methods="15" coveredmethods="8"/>
+      <file name="AlertProvider.tsx" path="/home/rikelry/Projects/react-native-crypto-alert/src/context/AlertProvider/AlertProvider.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="useAlertProvider.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/context/AlertProvider/useAlertProvider.ts">
+        <metrics statements="29" coveredstatements="24" conditionals="10" coveredconditionals="8" methods="14" coveredmethods="7"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="83" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="14" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="cryptoData.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/data/cryptoData.ts">
+        <metrics statements="14" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.CryptoListScreen">
+      <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="useCryptoListScreen.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/screens/CryptoListScreen/useCryptoListScreen.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="theme">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="colors.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/theme/colors.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/rikelry/Projects/react-native-crypto-alert/src/utils/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
