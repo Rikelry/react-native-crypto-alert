@@ -1,0 +1,6 @@
+appId: com.anonymous.cryptoalert
+---
+- launchApp
+- tapOn: "Aba Alerts"
+- assertVisible: "Price Alerts"
+- assertVisible: "New Alert"

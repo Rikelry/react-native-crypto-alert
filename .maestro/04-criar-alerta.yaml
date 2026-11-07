@@ -1,0 +1,16 @@
+appId: com.anonymous.cryptoalert
+---
+- launchApp
+- tapOn: "Aba Alerts"
+- assertVisible: "Price Alerts"
+- tapOn: "New Alert"
+- assertVisible: "Create Alert"
+- tapOn: "Select cryptocurrency"
+- tapOn: "Bitcoin"
+- tapOn: "0.00"
+- inputText: "100"
+- hideKeyboard
+- tapOn: "Above target price"
+- tapOn: "Save Alert"
+- assertVisible: "Price Alerts"
+- assertVisible: "Bitcoin"

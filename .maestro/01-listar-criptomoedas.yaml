@@ -1,0 +1,4 @@
+appId: com.anonymous.cryptoalert
+---
+- launchApp
+- assertVisible: "Cryptocurrencies"

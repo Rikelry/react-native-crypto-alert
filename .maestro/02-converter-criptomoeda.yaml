@@ -1,0 +1,9 @@
+appId: com.anonymous.cryptoalert
+---
+- launchApp
+- tapOn: "Aba Convert"
+- assertVisible: "Convert Crypto"
+- tapOn: "0.00"
+- inputText: "1"
+- hideKeyboard
+- assertVisible: "Converted Amount"

@@ -30,6 +30,7 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: "List",
+          tabBarAccessibilityLabel: "Aba List",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home" size={size} color={color} />
           ),
@@ -39,6 +40,7 @@ export default function TabsLayout() {
         name="convert"
         options={{
           title: "Convert",
+          tabBarAccessibilityLabel: "Aba Convert",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="swap-horizontal" size={size} color={color} />
           ),
@@ -48,6 +50,7 @@ export default function TabsLayout() {
         name="alerts"
         options={{
           title: "Alerts",
+          tabBarAccessibilityLabel: "Aba Alerts",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="notifications" size={size} color={color} />
           ),
